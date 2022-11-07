@@ -8,6 +8,7 @@
         <entry key="app/src/main/res/drawable/ic_android_black_24dp.xml" value="0.171" />
         <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.2105" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.24003623188405798" />
+        <entry key="app/src/main/res/layout/fragment_data.xml" value="0.203125" />
         <entry key="app/src/main/res/layout/fragment_detail.xml" value="0.2265625" />
         <entry key="app/src/main/res/layout/fragment_list.xml" value="0.203125" />
         <entry key="app/src/main/res/layout/item_layout.xml" value="0.203125" />
