@@ -7,6 +7,7 @@ import androidx.lifecycle.ViewModel
 
 class DataViewModel: ViewModel() {
     private lateinit var timer:CountDownTimer
+    // Observable
     val _seconds = MutableLiveData<Int>()
 
     fun startTimer(){

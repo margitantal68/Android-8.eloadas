@@ -17,8 +17,8 @@ import ro.sapientia.android_8eloadas.viewmodel.SharedViewModel
 
 class DetailFragment : Fragment() {
 
-// Fragment's ViewModel
-//    val sharedViewModel: SharedViewModel by viewModels()
+    // Fragment's ViewModel
+    // val sharedViewModel: SharedViewModel by viewModels()
 
     // Activity's ViewModel - shared between activity's fragments
     val sharedViewModel: SharedViewModel by activityViewModels()
@@ -42,13 +42,8 @@ class DetailFragment : Fragment() {
         val editText2: EditText = view.findViewById(R.id.editTextDetail2)
         val button: Button = view.findViewById(R.id.buttonDetail)
 
-        // 1. valtozat
         val position = sharedViewModel.position
-        // 2. valtozat
-        // val position = sharedViewModel.position.value!!
-
         Log.d("XXX", "DetailFragment - HashCode ${sharedViewModel.hashCode()}")
-        Log.d("XXX", "detailFragment "+position)
 
         val list = sharedViewModel.list
 

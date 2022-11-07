@@ -41,7 +41,6 @@ class DataFragment : Fragment() {
         viewModel._seconds.observe(this.viewLifecycleOwner, Observer{
             val seconds = it.toString()
             textView.setText(seconds)
-            Log.d("XXX", seconds)
         })
 
         button.setOnClickListener{

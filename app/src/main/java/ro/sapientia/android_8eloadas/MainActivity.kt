@@ -17,16 +17,11 @@ import ro.sapientia.android_8eloadas.viewmodel.SharedViewModel
 
 class MainActivity : AppCompatActivity() {
 
-//    val sharedViewModel: SharedViewModel by viewModels()
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-//        Log.d("XXX", "Activity - HashCode ${sharedViewModel.hashCode()}")
 
-        Log.d("XXXX", "Activity's HashCode {$this.hashCode()}")
-
-        // Bottom navigation
+        // Set up bottom navigation
         val navController = findNavController(this, R.id.myNavHostFragment)
         val bottomNav = findViewById<BottomNavigationView>(R.id.bottomNavigation)
         bottomNav?.setupWithNavController(navController)
